@@ -44,9 +44,9 @@ namespace GetSplunkLogData
         {
             string baseurl = "https://localhost:8089";
             string user = "admin";
-            string password = "Ghouse01*";
-            //string searchQuery = "source=\"\\\\\\\\YOGA.psr.rd.hpicorp.net\\\\StaplesMiddleWare\\\\log.txt\" ERROR&earliest=-7d&latest=now";
-            string searchQuery = "source=\"F:\\\\Services\\\\StaplesMiddleWare\\\\log.txt\" earliest=-7d latest=now"; // ERROR;
+            string password = "*******";
+            
+            string searchQuery = "source=\"F:\\\\Services\\\\MiddleWare\\\\log.txt\" earliest=-7d latest=now"; 
 
             // Authenticate on the server and get the session key            
             string url = baseurl + "/services/auth/login";
